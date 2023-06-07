@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/BITCOIN', function () {
+    return view('BITCOIN');
+    //return 'BITCOIN' ;
+});
+
